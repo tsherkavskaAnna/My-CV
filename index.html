@@ -4,30 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./CSS/style.css">
+    <title>CV Anna Tsherkavska</title>
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-    <title>CV Anna Tsherkavska</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
 </head>
 <body>
     <!--Main container-->
-    <div class="main container">
+    <div class="main_container">
+        <div class="about_me_section">
         <div class="about_me">
-            <h1 class="about_me name">Anna Tsherkavska</h1>
-            <p class="about_me professional">Front-End developer</p>
-            <p class="about_me description">I am a Front-End developer looking for a full-time position in
+            <h1 class="about_me_title">Anna Tsherkavska</h1>
+            <p class="about_me_professional">Front-End developer</p>
+            <p class="about_me_description">I am a Front-End developer looking for a full-time position in
                 a company that's aimed at making both everyday
                 life and business easier, more productive and user-friendly. I
                 have sound knowledge of HTML, CSS, JavaScript, and React.
                 Also, I have hands-on experience in following Agile /Scrum
                 methodology when working in a team. I am a fast learner,
                 responsible, and ready for challenging tasks.</p>
-        </div>
+        </div>  
 <!--Projects-->
-<div class="projects_list">
-    <h2>Project experience</h2>
-    <ol>
+<div class="projects_section">
+    <h2 class="project_title">Project experience</h2>
+    <ol class="project_list">
         <li class="project_item">
             <a class="project_link" href="https://web-studio-lab.netlify.app"
             target="_blank">WebStudio</a>
@@ -49,11 +50,83 @@
     </ol>
 </div>
 <!--My work expirience-->
-<!--Education-->
+<div class="work_section">
+    <h2 class="work_title">Work experience</h2>
+    <p class="position_name">Health care assistent</p>
+    <p class="position_term">October 2016 - up to now | Italy</p>
+    <ol class="position_list">
+        <li class="position_description">Participate in the development of the individual program plan</li>
+        <li class="position_description">Helping and supporting the patient with their personal care routines</li>
+        <li class="position_description">Assisting patients with any occupational, physiotherapy & recreational activities.
+        </li>
+    </ol>
+<!--Education-->    
+<div class="education_section">
+    <h2 class="educatiion_title">Education</h2>
+    <h3 class="education_name">IT School GoIT</h3>
+    <p class="education_prof">Full stack developer</p>
+    <p class="education_term">March 2021 - Otobre 2022</p>
+    <h3 class="education_name">Podilsky State Agrarian Technical University</h3>
+    <p class="education_prof">Economy and finance</p>
+    <p class="education_term">Septembre 2003 - July 2010 | Ukraine </p>
+</div>
+</div>  
+</div>
 <!--Foto-->
+<aside class="sidebar_section">
+    <img class="my_foto" src="./image/31d79e98-2f53-4dc9-9ee2-0b5fa6395dfe.jpg" alt=" my photo">
 <!--Contacts-->
+<div class="contact_section">
+    <h3 class="sidebar_title">Contacts</h3>
+    <div class="contact_container">
+        <a class="contact_type" href="tel:+393279231042">+39 3279231042</a>
+    </div>
+    <div class="contact_container">
+        <a class="contact_type" href="mailto:tsherkavska@libero.it">tsherkavska@libero.it</a>
+    </div>
+    <div class="contact_container">
+        <a class="contact_type" href="https://github.com/tsherkavskaAnna?tab=repositories">GitHub</a>
+    </div>
+    <div class="contact_container">
+        <a class="contact_type" href="https://www.linkedin.com/in/anna-tsherkavska/">LinkedIn</a>
+    </div>
+</div>
 <!--Tech skills-->
+<div class="tech_skills_section">
+    <h3 class="sidebar_title">Tech skills</h3>
+    <ol class="skills_list">
+        <li class="skills_item"><span>HTML</span></li>
+        <li class="skills_item"><span>CSS</span></li>
+        <li class="skills_item"><span>Git</span></li>
+        <li class="skills_item"><span>JavaScript</span></li>
+        <li class="skills_item"><span>REST API</span></li>
+        <li class="skills_item"><span>React</span></li>
+        <li class="skills_item"><span>Redux</span></li>
+        <li class="skills_item"><span>Node.js</span></li>
+        <li class="skills_item"><span>MongoDB</span></li>
+    </ol>
+</div>
 <!--Soft skills-->
+<div class="soft_skills_section">
+    <h3 class="sidebar_title">Soft skills</h3>
+        <ol class="skills_list">
+            <li class="skills_item"><span>Hardworking</span></li>
+            <li class="skills_item"><span>Time management</span></li>
+            <li class="skills_item"><span>Problem-solving skills</span></li>
+            <li class="skills_item"><span>Agile</span></li>
+            <li class="skills_item"><span>Teamwork</span></li>
+        </ol>
+</div>
+<!--Languages-->
+<div class="lang_section">
+    <h3 class="sidebar_title">Languages</h3>
+    <ol class="skills_list">
+        <li class="skills_item"><span>English - intermediate</span></li>
+        <li class="skills_item"><span>Italian - advanced</span></li>
+        <li class="skills_item"><span>Ukrainian - native</span></li>
+    </ol>
+</div>
+</aside>
     </div>
 </body>
 </html>
