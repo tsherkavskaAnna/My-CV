@@ -31,14 +31,14 @@ a {
     display: flex;
     flex-direction: row-reverse;
     width: 1200px;
+    height: auto;
     background-color: #f5f7fa;
     margin: 0px auto;
 }
 .about_me_section {
-    padding: 30px 90px;
+    padding: 30px 60px;
 }
 .about_me {
-    margin-bottom: 20px;
     font-style: normal;
     font-size: 18px;
     font-weight: bold;
