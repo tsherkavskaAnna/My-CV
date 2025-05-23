@@ -129,6 +129,7 @@ a {
 }
 .position_term {
 	margin-top: 5px;
+	margin-bottom: 5px;
 	padding-left: 20px;
 	font-style: normal;
 	font-weight: 400;
@@ -187,6 +188,7 @@ a {
 /* Sidebar section */
 .sidebar_section {
 	width: 370px;
+	height: auto;
 	background-color: #1e2939;
 	color: white;
 	flex-shrink: 0;
@@ -195,10 +197,9 @@ a {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 20px;
-	width: 280px;
-	height: 325px;
 	border-radius: 50%;
+	padding: 1.2rem;
+	margin-top: 1rem;
 }
 .sidebar_title {
 	padding-top: 30px;
